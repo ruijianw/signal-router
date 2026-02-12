@@ -1,0 +1,169 @@
+1431687883563208904:698419397148016661,1397978549767372943:*,1397693788696219839:*,1452433844538966078:*,812386654617862155:*,1460059194794180864:*,1256774429103624232:*,1256774963818397860:*,894421928968871986:*,1435285200031715388:*,1442187623064928367:*,1427229019727986688:*,728711121128652851:*,1137935466864312400:*,1324570434208927804:*,1359611182759153824:*,1085224967894995004:*,1319444838826905650:*,1072555808832888945:*,1457490555016839289:*,1461583472727691460:*,1447072405443837993:*,1447072496489730068:*,1372032779050684616:*,922638571679141898:*,1457591894337916999:*,1385408916673790063:*,1235366372385493074:*
+
+
+
+
+
+[
+  {
+    "name": "advanced options",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+        "1431687883563208904",
+        "1397978549767372943",
+		"1397693788696219839"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      "https://discord.com/api/webhooks/1468810869214544015/8HN1Vke0_LX2RMA3_6UxsdHdAMJhDGQyCx7WVAF01cXz5GpFg3uxSFUxAiTiMqOBu6ap",
+        "https://discord.com/api/webhooks/1468810441906978918/Tv6DXQg7imS2synm5hSgi-ixAHSS9NinhGFj_Zgx2OeDtLVpbdP6I1jMSlsvsEjJxCJn"
+      ]
+    }
+  },
+  {
+    "name": "swing",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+        "728711121128652851",
+		"1137935466864312400",
+		"1324570434208927804",
+		"1359611182759153824",
+		"1085224967894995004",
+		"1072555808832888945",
+		"1457490555016839289",
+		"1461583472727691460",
+		"1447072405443837993",
+		"1447072496489730068",
+		"1372032779050684616",
+		"922638571679141898",
+		"1457591894337916999",
+		"1385408916673790063",
+		"1235366372385493074"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      	"https://discord.com/api/webhooks/1468811112538706144/2Ckzy3n8BCsdWRMwvkA5peNdm543OHwMc3mlnpCM7tIjOPC6X2lh0zV4neZLNVyHQMQ9",
+        "https://discord.com/api/webhooks/1468810441906978918/Tv6DXQg7imS2synm5hSgi-ixAHSS9NinhGFj_Zgx2OeDtLVpbdP6I1jMSlsvsEjJxCJn"
+      ]
+    }
+  },
+  {
+    "name": "index-bot",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+        "1256774429103624232",
+		"1256774963818397860"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      	"https://discord.com/api/webhooks/1468997051000819884/XElhjVAKa1LbnXMd3Of_SrXETUYHZR5SH68Fq5XcRF8E5BioGUJBzY6BTxIgjqCzHeG1"
+      ]
+    }
+  },
+  {
+    "name": "index",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+		"894421928968871986",
+		"1435285200031715388",
+		"1442187623064928367",
+		"1427229019727986688"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      	"https://discord.com/api/webhooks/1468811197376892990/zmXMpy1ffmLekwwy92EbuEp1lmE8KB7FfkklzKz6hJ1bXSd1XzEYDSvi_to8H1JFqg6e",
+        "https://discord.com/api/webhooks/1468810441906978918/Tv6DXQg7imS2synm5hSgi-ixAHSS9NinhGFj_Zgx2OeDtLVpbdP6I1jMSlsvsEjJxCJn"
+      ]
+    }
+  },
+  {
+    "name": "analysis",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+        "1319444838826905650",
+		"1452433844538966078"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      	"https://discord.com/api/webhooks/1468810748179382541/TqMOpchPQ46gyCdgl6-MFneCw-LXg61IsS9aieVlin_bNeqDbvNZkbybpvg5ggQbw0U2",
+        "https://discord.com/api/webhooks/1468810441906978918/Tv6DXQg7imS2synm5hSgi-ixAHSS9NinhGFj_Zgx2OeDtLVpbdP6I1jMSlsvsEjJxCJn"
+      ]
+    }
+  },
+  {
+    "name": "flow",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+        "812386654617862155",
+		"1460059194794180864"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      	"https://discord.com/api/webhooks/1468810974273212505/Cg5fHhc9OQALg9iZac8istVV0IsvBUTy9ZdYDnexTL-d7Y4FDablDbFpBFApg-9JqAwh",
+        "https://discord.com/api/webhooks/1468810441906978918/Tv6DXQg7imS2synm5hSgi-ixAHSS9NinhGFj_Zgx2OeDtLVpbdP6I1jMSlsvsEjJxCJn"
+      ]
+    }
+  },
+  {
+    "name": "test",
+    "enabled": true,
+    "type": "SIGNAL",
+    "match": {
+      "channel_id": [
+        "1464838224261415102"
+      ],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+      	"https://discord.com/api/webhooks/1468812312931467375/uGUMXC2fkZ_kWhvzEt0T7co26Yir2elwX_Jynus582V32v180pOCz5kuFCKpdstXN9T9"
+      ]
+    }
+  },
+  {
+    "name": "🚧 Rule: 全局测试 (Test Mode)",
+    "enabled": false,
+    "type": "FEED",
+    "match": {
+      "channel_id": [],
+      "user_id": []
+    },
+    "routes": {
+      "telegram": [],
+      "discord": [
+        "https://discord.com/api/webhooks/1464834010478805054/CviWXqCyCSk5Sq06NHq2MMT6ta1eT6wIQAUjGebfUdFKc-NZpdz9408rcTuRYMcpxxcj"
+      ]
+    }
+  }
+]

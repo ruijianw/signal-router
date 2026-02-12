@@ -108,6 +108,24 @@ npm run deploy
 ]
 ```
 
+## 统一配置归档 (`src/signal_router_config`)
+
+为了简化管理，项目使用 `src/signal_router_config` 文件统一管理 Vencord 插件配置和 Cloudflare KV 路由表。
+
+该文件包含两部分：
+
+1.  **顶部 (Line 1)**: **Vencord 插件转发映射**
+    *   格式: `SourceChannelID:TargetChannelID,SourceChannelID:*,...`
+    *   用途: 供 Vencord 插件 (如 `MessageLogger` 或自定义脚本) 使用，决定哪些频道的消需要被转发到 Signal Router。
+    *   示例: `123456:987654` (将 123456 的消息发给 987654 对应的 Webhook), `123456:*` (广播)。
+
+2.  **底部 (JSON Array)**: **Cloudflare KV 路由表**
+    *   用途: `SIGNAL_CONFIG` KV 中的 `ROUTING_TABLE` 值。
+    *   作用: Cloudflare Worker 运行时使用此配置来决定如何处理接收到的 HTTP POST 请求（分析、过滤、转发等）。
+    *   **部署**: 修改此 JSON 后，需要手动或通过脚本将其更新到 Cloudflare KV 中。
+
+---
+
 ## 数据库 Schema (D1)
 
 项目依赖以下数据表 (Schema 示意):
